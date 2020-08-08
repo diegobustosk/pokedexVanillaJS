@@ -1,3 +1,12 @@
+.pokemon-data-type{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pokemon-type-wrapper{
+    display: flex;
+}
 
 .pokemon-type{
     text-align: center;
@@ -6,6 +15,7 @@
     border-radius: 20px;
     width: 80px;
     height: 25px;
+    margin: 5px;
 }
 
 .grass{
