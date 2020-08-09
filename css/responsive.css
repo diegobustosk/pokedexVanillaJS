@@ -1,0 +1,62 @@
+
+
+@media (min-width: 650px){
+    .pokemon-number-name{
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+    .pokemon-number-name h3{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .pokemon-type{
+        font-size:20px;
+        height: 35px;
+        width: 130px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 35px;
+    }
+    
+    .pokemon-list{
+        width: 450px;
+    }
+
+    ul.pokemons{
+        height: 120px;
+    }
+    .pokemons img{
+        height: 100px;
+        width: 100px; 
+    }
+
+}
+
+@media (min-width: 800px){
+    .pokemon-number-name{
+        justify-content: flex-start;
+        font-size: 25px;
+    }
+    .pokemon-number-name h3{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .pokemon-type{
+        font-size:20px;
+        height: 35px;
+        width: 130px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 35px;
+    }
+    .pokemon-list{
+        width: 600px;
+    }
+    ul.pokemons{
+        height: 150px;
+    }
+    .pokemons img{
+        height: 150px;
+        width: 200px; 
+    }
+}
