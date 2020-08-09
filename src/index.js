@@ -2,9 +2,9 @@ import gettingPokemon from './interactionApi/gettingPokemons.js';
 
 const pokemonList = document.getElementById('pokemon-list')
 
-console.log(pokemonList)
 
-const total = 500;
+
+const total = 151;
 
 gettingPokemon(total, pokemonList)
 
